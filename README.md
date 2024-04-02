@@ -1,13 +1,17 @@
-[![banner](.src/logos/zoralab-fonts_1200x340.svg)](https://github.com/ZORALab/Fonts)
+[![banner](.src/logos/holloway-fonts_1200x270.svg)](#holloways-open-sil-fonts-collections)
 
-# ZORALab's Fonts
-This fonts repository is the ZORALab's deployable fonts that are friendly for
-public use with the following business goals:
+# Holloway's Open SIL Fonts Collections
 
-1. **Making It Easy for Our Clients** - for modifications, deployment, and etc.
-2. **Reusable Vetted Efforts** - vetted for
-*Open Font Licenses stores with re-distributable license* for rapid prototyping.
-3. **Easier to Scale Among ZORALab Members** - get to work without worrying
+Initially called [ZORALab's Fonts](https://github.com/ZORALab/Fonts), due to
+tech transfers, this font repository is now called Holloway's Open SIL Fonts
+Collections under (Holloway) Chew, Kean Ho and his team's direct supervision.
+
+The repository is mainly to fulfill the following goals:
+
+1. **Making It Easy for Clients** - for modifications, deployment, and etc.
+2. **Reusable Vetted Efforts** - vetted for rapid prototyping with
+*Open Font Licenses stores with re-distributable license*.
+3. **Easier to Scale Among Members & Friends** - get to work without worrying
 about glyphs and font availabilities.
 
 
@@ -34,8 +38,8 @@ Hence, the usual commands are:
 
 ```
 $ cd ~/.fonts
-$ git clone https://github.com/ZORALab/Fonts.git zoralab
-$ cd ./zoralab
+$ git clone https://github.com/ChewKeanHo/LIBS_Fonts holloway
+$ cd ./holloway
 $ ./update.sh.ps1
 ```
 
@@ -55,15 +59,15 @@ any other source code repository.
 The usual commands are:
 
 ```
-$ git clone https://github.com/ZORALab/Fonts.git zoralab
-$ cd .\zoralab
+$ git clone https://github.com/ChewKeanHo/LIBS_Fonts holloway
+$ cd .\holloway
 $ powershell.exe -noprofile -executionpolicy bypass -file .\update.sh.ps1
 ```
 
 To update the repo from time to time, please enter the font repo and `git pull`:
 
 ```
-$ cd .\zoralab
+$ cd .\holloway
 $ git pull
 ```
 
